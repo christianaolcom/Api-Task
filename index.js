@@ -342,8 +342,8 @@ const music = [
 
 
 app.get('/',(req,res)=> {
-    //res.send('working')
-    res.sendFile(__dirname+'/public/index.html')
+    res.send('working')
+    // res.sendFile(__dirname+'/public/index.html')
     //res.send(_dirname)
 })
 
