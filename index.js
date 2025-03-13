@@ -361,6 +361,4 @@ app.get('/api3', (req,res) => {
     res.send(car)
 });
 
-
-
 app.listen(port, () => console.log(`Server started at port ${port}`));
